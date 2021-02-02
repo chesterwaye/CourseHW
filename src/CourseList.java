@@ -282,7 +282,7 @@ public class CourseList {
                 try {
                     out = new PrintWriter(new File("courses.txt"));
                 } catch (FileNotFoundException e) {
-                  
+
                     e.printStackTrace();
                 }
                 // write contents of each courseList item to file
